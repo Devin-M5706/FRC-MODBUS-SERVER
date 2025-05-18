@@ -1,0 +1,32 @@
+{
+    "40001": {
+        "name": "arm_motor_speed",
+        "type": "int16",
+        "description": "Arm motor speed control (-100 to 100)",
+        "default": 0
+    },
+    "40002": {
+        "name": "arm_motor_position",
+        "type": "int16",
+        "description": "Current arm position in encoder counts",
+        "default": 0
+    },
+    "40003": {
+        "name": "arm_enabled",
+        "type": "bool",
+        "description": "Arm motor enable/disable state",
+        "default": false
+    },
+    "40004": {
+        "name": "gyro_angle",
+        "type": "float",
+        "description": "Robot gyro angle in degrees",
+        "default": 0.0
+    },
+    "40005": {
+        "name": "pneumatic_state",
+        "type": "bool",
+        "description": "Main pneumatic system state",
+        "default": false
+    }
+} 
